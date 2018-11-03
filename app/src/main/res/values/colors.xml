@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="addbtn">#72c965</color>
+    <color name="updatebtn">#FFE2A2A2</color>
+    <color name="black">#FF201F1F</color>
+    <color name="main_colour">#FF008577</color>
+    <color name="white">#FFFFFF</color>
+    <color name="warnings">#FFED0910</color>
+    <color name="home_btn">#ec9201</color>
+</resources>

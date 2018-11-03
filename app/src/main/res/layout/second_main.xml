@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/add_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp"
+        />
+    <ListView
+        android:id="@+id/lv_mainlist"
+        android:layout_width="match_parent"
+        android:layout_height="298dp"
+        android:layout_above="@+id/et_title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-122dp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/et_new_strings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="95dp"
+        android:hint="@string/et_hint"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="145dp"
+        android:hint="@string/et_task_title_hint"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="381dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+
+        android:background="@color/addbtn"
+        android:text="@string/addbtn"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"/>
+
+</RelativeLayout>

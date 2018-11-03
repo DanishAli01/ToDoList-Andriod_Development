@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ToDo List</string>
+    <string name="second">Create Task @intent</string>
+
+    <string name="ListView">Create Task</string>
+    <string name="btn_third">View Tasks</string>
+    <string name="third_activity">View Tasks</string>
+    <string name="RowDefaultText"><em>Task</em></string>
+
+
+    
+    
+    
+    <string name="tv_display_init">Nothing Selected</string>
+    <string name="addbtn">Create</string>
+    <string name="et_task_title_hint">Title</string>
+    <string name="et_hint"> Enter Task Here</string>
+    <string name="hello_world">Custom-item-layout</string>
+
+
+
+    <string name="action_settings_Option_one"><em>Reset TaskList</em></string>
+    <string name="action_settings_Option_two">Modify Task</string>
+    <string name="action_settings_Option_three">Home</string>
+
+</resources>
